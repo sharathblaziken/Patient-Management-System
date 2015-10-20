@@ -1,0 +1,130 @@
+body
+{
+ background: #fff url(../images/bg.png);
+ font-family: sans-serif;
+ color: #333;
+}
+a
+{
+ text-decoration:none;
+ outline:0;
+}
+.logo
+{
+ width:90%;
+ max-width:400px;
+ margin:auto;
+ position:relative;
+ z-index:1001;
+}
+.top
+{
+ position:relative;
+ width:100%;
+ padding:15px 0px;
+ z-index:1000;
+ background: rgba(255,255,255,.6);
+ box-shadow: 0 0 5px #999;
+}
+.modules
+{
+ position:relative;
+ z-index: 1000;
+ top:30px;
+ width:80%;
+ max-width:900px;
+ margin:auto;
+ outline:0;
+}
+.modulesi
+{
+ outline:0;
+ width:130px;
+ margin:auto;
+ text-align:center;
+ color: #4BB3C5;
+ padding:20px;
+ background: #fbfbfb;
+ border-radius: 150px;
+ box-shadow: 0 0 10px #ccc;
+ transition: all .3s ease-in-out;-webkit-transition: all .3s ease-in-out;-moz-transition: all .3s ease-in-out;-ms-transition: all .3s ease-in-out;-o-transition: all .3s ease-in-out;
+}
+.modulesi:hover
+{
+ transform:scale(1.5,1.5);
+ -ms-transform:scale(1.5,1.5);
+ -webkit-transform: scale(1.5,1.5);
+ cursor:pointer;
+ box-shadow: 0 0 10px #5DC6D7;
+}
+.amb
+{
+ position:absolute;
+ top:0;
+ left:0;
+ height:129px;
+ z-index:1002;
+}
+.tony
+{
+ position:absolute;
+ top:0;
+ right:0;
+ height:129px;
+ z-index:1002;
+}
+.copy
+{
+ position:absolute;
+ bottom:20px;
+ left:50%;
+ margin-left:-86.5px;
+}
+.login
+{
+ position:relative;
+ z-index: 1000;
+ top:30px;
+ width:80%;
+ max-width:400px;
+ margin:auto;
+ background: #ededed;
+}
+.input
+{
+ border:none;
+ background: #ededed;
+ box-shadow: none;
+ border: 1px solid #bbb;
+ padding:10px;
+}
+.input:focus
+{
+ box-shadow: 0 0 5px #59C4D6;
+ border: none;
+}
+.submit
+{
+ border:none;
+ padding:10px 20px;
+ background: #5AC6D8;
+ color: #fbfbfb;
+ transition: all .3s ease-in-out;-webkit-transition: all .3s ease-in-out;-moz-transition: all .3s ease-in-out;-ms-transition: all .3s ease-in-out;-o-transition: all .3s ease-in-out;
+}
+.submit:hover
+{
+ background:#337FAA;
+}
+.info
+{
+ width:80%;
+ max-width:1200px;
+ margin: 10px auto;
+ background: #fbfbfb;
+ box-shadow: 0 0 5px #aaa;
+ padding:20px;
+}
+.info img
+{
+ max-width:450px;
+}

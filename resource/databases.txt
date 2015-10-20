@@ -1,0 +1,47 @@
+-----------------------------
+Doctor:
+-----------------------------
+id
+username
+password
+fullname
+foe (include qualification)
+contact info
+experience
+-----------------------------
+Staff:
+-----------------------------
+id
+username
+password
+name
+-----------------------------
+Patient:
+-----------------------------
+id
+username
+password
+name
+age
+gender
+blood
+problem
+consulting doctor (ids from doctor table)
+no. of visits
+last visit
+medicines
+amount
+----------------------------
+Feedback:
+----------------------------
+fid
+id (from patients table)
+comment
+-----------------------------
+Reports:
+-----------------------------
+id
+patient-id
+time
+result
+-----------------------------
